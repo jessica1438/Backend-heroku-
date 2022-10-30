@@ -8,7 +8,7 @@ const app = express(); // variable app recieves all the functionalities of expre
 
 const conn = process.env.DATABASE
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || '8003';
 // Middlewares
 app.use(express.json());
 app.use(cors());
